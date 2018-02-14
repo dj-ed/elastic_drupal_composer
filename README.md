@@ -75,7 +75,7 @@ drupal module:install $module_name # drupal module:install elasticsearch_connect
 Depending on You local machine setup, the <Server URL> can be assigned to some of the following options: <br />
  *http://localhost:9201/* <br />
  *http://elasticsearch:9200/* <br />
- *http://elastic.$sitename.loc:9200/* ## This is actually the value that we passed in our docker-compose.yml file. <br />
+ *http://elastic.$sitename.loc:9200/* ## This is actually the value that we passed in our docker-compose.yml file, see bellow. <br />
  ```yml
  services:
     elasticsearch:
